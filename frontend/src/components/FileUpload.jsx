@@ -20,7 +20,7 @@ function FileUpload() {
         try {
 
             const response = await axios.post(
-                "http://127.0.0.1:8000/api/import/",
+                ""https://shared-expense-importer.onrender.com/api/import/"",
                 formData,
                 {
                     headers: {
